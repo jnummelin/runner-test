@@ -2,7 +2,9 @@ name: Disk debug stuff
 
 on:
   pull_request:
-
+  push:
+    branches:
+      - main
 
 jobs:
   disk-debug:
